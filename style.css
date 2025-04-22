@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  .lang-sel {
+    margin-bottom: 20px;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px; /* Adding spacing between buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-start {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  
+  .btn-stop {
+    background-color: #dc3545; /* Red */
+    color: white;
+  }
+  
+  .btn-play {
+    background-color: #007bff; /* Blue */
+    color: white;
+  }
+  
+  .text-con {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 80%; /* Limit the width */
+    margin: 20px auto; /* Center the container */
+    text-align: center; /* Center the text */
+  }
+  
+  .input-text, .output-text {
+    font-size: 18px; /* Size of text */
+    margin: 10px 0; /* Space between paragraphs */
+  }
+  
+  .input-text {
+    font-weight: bold; /* Make the 'YOU SAID' text bold */
+    color: #495057; /* Dark text color */
+  }
+  
+  .output-text {
+    font-style: italic; /* Make the translation text italic */
+    color: #007bff; /* Blue color for translation */
+  }
+  
+  
